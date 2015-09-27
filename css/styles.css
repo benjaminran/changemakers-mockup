@@ -8,9 +8,10 @@ html,body {
 
 h1 {
   font-family: Arial,sans-serif
-  font-size:80px;
-  color:#DDCCEE;
-  margin-bottom:3em;
+  font-size: 2em;
+  color: #DDCCEE;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .lead {
@@ -20,10 +21,10 @@ h1 {
 #language {
   position: fixed;
   top: 1em;
-  right: 10em;
+  right: 1em;
   z-index: 1000;
   color:#DDCCEE;
-
+  margin-bottom: 1em;
 }
 
 .caret {
@@ -37,7 +38,7 @@ h1 {
   width: 100%;
   min-height:100%;
   background-color:#110022;
-  color:#eee;
+  color:#DDCCEE;
   overflow:hidden;
 }
 
