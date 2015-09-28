@@ -14,15 +14,18 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-<div id="language"><p>Spanish<span class="caret">&#9660;</span></p></div>
-<div class="container-full" id="screen-1">
+<div id="language"><p>Hmong<span class="caret">&#9660;</span></p></div>
+
+<!-- Patient Screens -->
+<div class="container-full" id="patient-1">
 
     <div class="row">
 
         <div class="col-lg-12 text-center v-center">
 
-            <h1>Welcome to Acme Health</h1>
-            <p class="lead">Have you experienced any discomfort since your last visit?</p>
+            <h1>hTranslate</h1>
+            <p class="lead">Muaj koj muaj tej yam tsis xis nyob vim koj lub xeem tuaj puas tau?</p>
+            <small>(Have you experienced any discomfort since your last visit?)</small>
 
             <br><br><br>
 
@@ -33,10 +36,11 @@
                 </div>-->
 
                 <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-lg btn-warning"><a class="scroll" target="screen-2">Yes</a></button>
-                    <button type="button" class="btn btn-lg btn-success">No</button>
+                    <button type="button" class="btn btn-lg btn-warning"><a class="scroll" href="#patient-2">Yes</a></button>
+                    <button type="button" class="btn btn-lg btn-success"><a class="scroll" href="#patient-3">No</a></button>
                 </div>
             </form>
+
         </div>
 
     </div> <!-- /row -->
@@ -52,71 +56,24 @@
     <br><br><br><br><br>
 
 </div> <!-- /container full -->
-<div class="container-full" id="screen-2">
+<div class="container-full" id="patient-2">
     <div class="row">
         <div class="col-lg-12 text-center v-center">
-            <p class="lead">Where is the pain?</p>
-            <p><a class="scroll" target="screen-3">[image]</a></p>
+            <p class="lead">Qhov twg yog qhov mob?</p>
+            <small>(Where is the pain?)</small>
+            <p><a class="scroll" href="#patient-3"><img src="img/body2.png"/> </a></p>
         </div>
     </div>
 </div>
-<div class="container-full" id="screen-3">
+<div class="container-full" id="patient-3">
     <div class="row">
         <div class="col-lg-12 text-center v-center">
-            <h1>Thank you.</h1>
-            <p class="lead">A doctor will see you shortly.</p>
+            <h1>Ua tsaug rau koj.</h1>
+            <p class="lead">Ib tug kws kho mob yuav pom koj sai sai no.</p>
+            <small>(Thank You. A doctor will see you shortly.)</small>
         </div>
     </div>
 </div>
-
-<!--
-<div class="container">
-
-    <hr>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading"><h3>Hello.</h3></div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
-                    Aliquam in felis sit amet augue.
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading"><h3>Hello.</h3></div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
-                    Aliquam in felis sit amet augue.
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading"><h3>Hello.</h3></div>
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
-                    Aliquam in felis sit amet augue.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-12">
-            <br><br>
-            <p class="pull-right"><a href="http://www.bootply.com">Template from Bootply</a> &nbsp; ©Copyright 2013 ACME<sup>TM</sup> Brand.</p>
-            <br><br>
-        </div>
-    </div>
-</div>
--->
-
 
 <!-- script references -->
 <script src="https://code.jquery.com/jquery-2.0.2.js"></script>
